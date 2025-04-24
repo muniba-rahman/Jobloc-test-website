@@ -1,0 +1,141 @@
+.header {
+    width: 100%;
+    background-color: var(--white);
+    padding: 10px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    min-height: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.toggleBtn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.linkClass {
+    color: var(--nav-link-color);
+}
+
+.activeClass {
+    color: var(--blue) !important;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #333;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search {
+    background-color: var(--white-v2);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 6px 20px;
+    gap: 10px;
+    max-width: 261;
+    min-height: 39px;
+}
+
+.input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.resumeBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profileImage {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1220px) {
+    .toggleBtn {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search{
+        width: 261px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .nav.open {
+        max-height: 500px;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .resumeBtn {
+        width: 100%;
+    }
+}

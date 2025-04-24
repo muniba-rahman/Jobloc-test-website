@@ -1,0 +1,61 @@
+.mainDiv {
+    min-width: 200px;
+    max-width: 200px;
+    width: 100%;
+    min-height: 164px;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid var(--border-color);
+    background-color: var(--white);
+}
+
+.imageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-gray-2);
+}
+
+.location {
+    width: 9.6px;
+    height: 12px;
+}
+
+.clock {
+    width: 12px;
+    height: 12px;
+}
+
+.blueText {
+    color: var(--blue);
+}
+
+.btnDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.savedIcon {
+    cursor: pointer;
+}

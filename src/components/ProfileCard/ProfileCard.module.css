@@ -1,0 +1,47 @@
+.mainDiv {
+    width: 100%;
+    /* max-width: 346px; */
+    height: 248px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.topDiv {
+    height: 100px;
+    width: 100%;
+    background: url("../../assets/profile-card-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    width: 86px;
+    height: 86px;
+    margin-top: -40px;
+}
+
+.contentDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.name{
+    color: var(--text-color);
+}
+
+.smallText{
+    color: var(--text-gray);
+}

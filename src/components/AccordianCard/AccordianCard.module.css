@@ -1,0 +1,46 @@
+.image{
+    width: 20px;
+    height: 30px;
+}
+
+.mainDiv{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.schedule{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    color: var(--nav-link-color);
+}
+
+.hightlightedBtn{
+    background-color: var(--light-green);
+    color: var(--green);
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.button{
+    background: none;
+    color: var(--blue);
+    border: 0px;
+    font-size: 10px;
+    font-weight: 300;
+}

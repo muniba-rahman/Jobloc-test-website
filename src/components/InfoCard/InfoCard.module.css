@@ -1,0 +1,29 @@
+.cardDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.border{
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.noBorder{
+    border: none !important;
+}
+
+.card {
+    background-color: var(--white);
+    /* max-width: 346px; */
+    width: 100%;
+    gap: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.count{
+    color: var(--blue);
+}

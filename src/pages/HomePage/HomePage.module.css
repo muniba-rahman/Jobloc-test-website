@@ -1,0 +1,93 @@
+.infoClass {
+    margin-block-start: 20px;
+}
+
+.nameClass {
+    color: var(--blue);
+}
+
+.paraStyle {
+    color: var(--text-gray-2);
+}
+
+.filterSection {
+    width: 100%;
+    max-width: 974px;
+    min-height: 77px;
+    height: auto;
+    top: 108px;
+    left: 420px;
+    gap: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input {
+    outline: none;
+    border: none;
+    width: 100%;
+    max-width: 192px;
+}
+
+.dropClass {
+    width: 137px;
+    color: var(--text-gray-2);
+    border-left: 1px solid var(--light-gray);
+    padding-inline-start: 10px;
+}
+
+.dropDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 447px;
+    min-height: 37px;
+    height: auto;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.text{
+    color: var(--text-gray-2);
+}
+
+.jobsDiv{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    gap: 10px;
+    margin-block: 15px;
+}
+
+.marginStyle{
+    margin-top: 40px !important;
+}
+
+.tabsDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.tabs {
+    min-width: 77px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: 1px solid var(--nav-link-color);
+    color: var(--nav-link-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.activeClass{
+    background-color: var(--nav-link-color);
+    color: var(--white);
+}

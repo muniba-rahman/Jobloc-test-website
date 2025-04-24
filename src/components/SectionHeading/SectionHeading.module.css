@@ -1,0 +1,20 @@
+.mainDiv {
+    min-height: 22px;
+    height: auto;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.title {
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.linkText{
+    text-decoration: underline;
+    color: var(--blue);
+    cursor: pointer;
+}
