@@ -36,8 +36,8 @@ export default function HomePage() {
   });
  
   //Tabs Filter
-  const tabFilteredJobs = featuredJobsData.filter(job => {
-    if (!activeTab) return filteredJobs.length ? true : false;
+  const tabFilteredJobs = filteredJobs.filter(job => {
+    if (!activeTab) return true;
     return job.title?.toLowerCase() === activeTab.toLowerCase();
   });
 
