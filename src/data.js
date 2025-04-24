@@ -120,6 +120,13 @@ export const featuredJobsData = [
         time: "1 day ago",
         applicants: "22 applicants"
     },
+    {
+        title: "MS Dynamics",
+        company: "Teams",
+        location: "Seattle, USA (Remote)",
+        time: "1 day ago",
+        applicants: "22 applicants"
+    },
 ];
 
 export const tabsData = ["Frontend", "Backend", "Graphic Designer"];

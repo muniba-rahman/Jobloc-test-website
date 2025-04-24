@@ -4,7 +4,7 @@ import profilePic from "../../assets/profile-card-image.png";
 
 export default function ProfileCard() {
   return (
-    <div className={classes.mainDiv}>
+    <div className={`shadow ${classes.mainDiv}`}>
       <div className={classes.topDiv}></div>
       <img src={profilePic} alt="img" className={classes.profilePic} />
       <div className={classes.contentDiv}>

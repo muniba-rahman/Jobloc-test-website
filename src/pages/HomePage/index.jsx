@@ -88,7 +88,7 @@ export default function HomePage() {
             <p className={`f-14 fw-500 ${classes.paraStyle}`}>Explore the latest job openings and apply for the best opportunities available today!</p>
 
             {/* filter section */}
-            <div className={`${classes.filterSection} my-4`}>
+            <div className={`${classes.filterSection} my-4 shadow`}>
               <input type="text" placeholder='Job Title, Company, or Keywords' className={classes.input} value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
               <div className={classes.dropDiv}>
                 <Dropdown value={selectedCity} onChange={(e) => setSelectedCity(e?.value)} options={cities} optionLabel="name"

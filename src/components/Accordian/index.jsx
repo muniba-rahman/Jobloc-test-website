@@ -6,7 +6,7 @@ export default function Accordion({ title, description, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={`${classes.accordionContainer} mt-3`}>
+    <div className={`shadow ${classes.accordionContainer} mt-3`}>
       <div className={classes.accordionHeader}>
         <div>
           <p className={`f-16 fw-600 ${classes.title}`}>{title}</p>

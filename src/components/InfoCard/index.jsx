@@ -4,7 +4,7 @@ import { InfoCardData } from '../../data';
 
 export default function InfoCard({className}) {
   return (
-    <div className={`${classes.card} ${className}`}>
+    <div className={`shadow ${classes.card} ${className}`}>
       {InfoCardData?.map((e, i)=>{
         return(
           <div className={`${classes.cardDiv} ${i === InfoCardData.length-1 ? classes.noBorder : classes.border}`} key={i}>
